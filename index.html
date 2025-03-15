@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Income&Expense</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Income</a></li>
+                    <li><a href="#">Expense</a></li>
+                    <li><a href="#">Report</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+        </aside>
+        <main>
+            <div class="header">
+                <h1>Income & Expense</h1>
+            </div>
+            <div class="content">
+                <div class="income">
+                    <h2>Income</h2>
+                    <form action="">
+                        <input type="text" name="income" id="income" placeholder="Enter Income">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="expense">
+                    <h2>Expense</h2>
+                    <form action="">
+                        <input type="text" name="expense" id="expense" placeholder="Enter Expense">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="report">
+                    <h2>Report</h2>
+                    <table>
+                        <tr>
+                            <th>Income</th>
+                            <th>Expense</th>
+                            <th>Balance</th>
+                        </tr>
+                        <tr>
+                            <td>1000</td>
+                            <td>500</td>
+                            <td>500</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
