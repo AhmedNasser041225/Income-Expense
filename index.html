@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,44 @@
     <link rel="stylesheet" href="style.css">
     <title>Income&Expense</title>
 </head>
+
 <body>
-    <div class="container">
-        <aside>
-            <div class="logo">
-                <img src="img/stock-vector-currency-exchange-cash-back-quick-loan-mortgage-refinance-refund-insurance-concept-fund-1017492880-removebg-preview.png" alt="logo" width="100px">
+
+    <header>
+        <div class="logo-container">
+            <img src="img/stock-vector-currency-exchange-cash-back-quick-loan-mortgage-refinance-refund-insurance-concept-fund-1017492880-removebg-preview.png" width="200" alt="Income & Expense Tracker Logo" class="logo">
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#sign-in">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="home">
+            <div class="hero">
+                <h1>Welcome to Income & Expense Tracker</h1>
+                <p>Manage your finances effectively with our easy-to-use tracker. Track your income, expenses, and
+                    generate reports to stay on top of your financial health.</p>
+                <a href="#income" class="btn">Get Started</a>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><i class="bi bi-house-door"></i><a href="#">Home</a></li>
-                    <li><i class="bi bi-graph-up"></i><a href="#">Income</a></li>
-                    <li><i class="bi bi-graph-down"></i><a href="#">Expense</a></li>
-                    <li><i class="bi bi-pie-chart-fill"></i><a href="#">Report</a></li>
-                    <li><i class="bi bi-gear"></i><a href="#">Setting</a></li>
-                </ul>
-        </aside>
-        <main>
-            <div id="home" class="home">
-                <div class="hero">
-                    <h1>Welcome to Income & Expense Tracker</h1>
-                    <p>Manage your finances effectively with our easy-to-use tracker. Track your income, expenses, and generate reports to stay on top of your financial health.</p>
-                    <a href="#income" class="btn">Get Started</a>
-                </div>
-                <div class="company-info">
-                    <h2>About Us</h2>
-                    <p>We are dedicated to helping you manage your finances with ease. Our tool provides a simple and intuitive way to track your income and expenses, ensuring you stay on top of your financial health.</p>
-                </div>
-                <div class="customer-info">
-                    <h2>Our Customers</h2>
-                    <p>Our customers range from individuals to small businesses who trust us to help them manage their finances efficiently.</p>
-                </div>
-                <div class="pricing">
-                    <h2>Our Plans</h2>
+            <div class="company-info">
+                <h2>About Us</h2>
+                <p>We are dedicated to helping you manage your finances with ease. Our tool provides a simple and
+                    intuitive way to track your income and expenses, ensuring you stay on top of your financial health.
+                </p>
+            </div>
+            <div class="customer-info">
+                <h2>Our Customers</h2>
+                <p>Our customers range from individuals to small businesses who trust us to help them manage their
+                    finances efficiently.</p>
+            </div>
+            <div class="pricing">
+                <h2>Our Plans</h2>
+                <div class="container">
                     <div class="plan basic">
                         <h3>Basic Plan</h3>
                         <p class="price">$10/month</p>
@@ -74,6 +81,11 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Income & Expense Tracker. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
